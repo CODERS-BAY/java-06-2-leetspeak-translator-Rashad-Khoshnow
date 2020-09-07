@@ -6,8 +6,8 @@ public class SechsPunktZwei {
         String str = sc.nextLine();
         System.out.println("Normal String: " + str);
         str = str.toLowerCase();
-        str = str.replaceAll("A", "@");
-        str = str.replaceAll("B", "8");
+        str = str.replaceAll("a", "@");
+        str = str.replaceAll("b", "8");
         str = str.replaceAll("c", "(");
         str = str.replaceAll("e", "3");
         str = str.replaceAll("g", "6");
