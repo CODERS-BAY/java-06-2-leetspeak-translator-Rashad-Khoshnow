@@ -15,7 +15,7 @@ public class SechsPunktZwei {
         str = str.replaceAll("i", "!");
         str = str.replaceAll("l", "1");
         str = str.replaceAll("o", "0");
-        str = str.replaceAll("s", "$");
+        str = str.replaceAll("s", "\\$");
         str = str.replaceAll("t", "7");
         str = str.replaceAll("z", "2");
 
